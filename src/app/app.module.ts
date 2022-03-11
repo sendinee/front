@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DetailsProductComponent } from './details-product/details-product.component';
 import {FormsModule} from "@angular/forms";
 import { ManageStockComponent } from './manage-stock/manage-stock.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ManageStockComponent } from './manage-stock/manage-stock.component';
     HomeComponent,
     NavComponent,
     DetailsProductComponent,
-    ManageStockComponent
+    ManageStockComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
