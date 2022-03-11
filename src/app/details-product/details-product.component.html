@@ -8,7 +8,9 @@
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
     <li *ngFor="let item of products">
-      <button class="dropdown-item" (click)="onSelectProduct(item)">{{item.name}}</button>
+      <button class="dropdown-item" (click)="onSelectProduct(item)">
+        {{item.name}}
+      </button>
     </li>
   </ul>
 </div>

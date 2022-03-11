@@ -13,5 +13,17 @@ export class ProductListComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  // title = "Product list";
+  //
+  //   constructor(public dialog: MdDialog) { }
+  //
+  //   ngOnInit() {
+  //   }
+  //
+  //   edit(data) {
+  //     this.dialog.open(EditProductComponent, {
+  //       width: '400px',
+  //       data: {product: "product name", threshold: 1234}
+  //     });
+  //   }
 }
