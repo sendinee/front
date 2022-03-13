@@ -9,6 +9,7 @@ import { DetailsProductComponent } from './details-product/details-product.compo
 import {FormsModule} from "@angular/forms";
 import { ManageStockComponent } from './manage-stock/manage-stock.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { ListNavComponent } from './list-nav/list-nav.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProductListComponent } from './product-list/product-list.component';
     NavComponent,
     DetailsProductComponent,
     ManageStockComponent,
-    ProductListComponent
+    ProductListComponent,
+    ListNavComponent
   ],
   imports: [
     BrowserModule,

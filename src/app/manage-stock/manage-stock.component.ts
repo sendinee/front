@@ -22,6 +22,7 @@ export class ManageStockComponent implements OnInit {
   crustaces: boolean=true;
   coquillages: boolean=true;
   visibility = [];
+  private any: any;
 
 
   constructor(public productsService: ProductsService) { }
@@ -129,21 +130,18 @@ export class ManageStockComponent implements OnInit {
     }
   }
 
-  // onclick(item:any){
-  //   if(item == "poissons"){
-  //     //this.poissons = !this.poissons;
-  //     this.visibility["poissons"] = !this.visibility["poissons"];
-  //
-  //   }
-  //   if(item == "coquillages"){
-  //     //this.coquillages = !this.coquillages;
-  //     this.visibility["coquillages"] = !this.visibility["coquillages"];
-  //
-  //   }
-  //   if(item == "crustaces"){
-  //     //this.crustaces = !this.crustaces;
-  //     this.visibility["crustaces"] = !this.visibility["crustaces"];
-  //
-  //   }
-  // }
+   onclick(item:any){
+     if(item == "poissons"){
+       this.poissons = !this.poissons;
+
+     }
+     if(item == "coquillages"){
+       this.coquillages = !this.coquillages;
+
+     }
+     if(item == "crustaces"){
+       this.crustaces = !this.crustaces;
+
+     }
+   }
 }
