@@ -6,7 +6,6 @@ import { HomeComponent } from './home/home.component';
 import { DetailsProductComponent } from "./details-product/details-product.component";
 import { ProductListComponent } from "./product-list/product-list.component";
 import { ManageStockComponent } from "./manage-stock/manage-stock.component";
-import { ListNavComponent } from "./list-nav/list-nav.component";
 
 
 
@@ -16,7 +15,6 @@ const routes: Routes = [
   { path: 'detailsProduit', component: DetailsProductComponent },
   { path: 'productList', component: ProductListComponent},
   { path: 'manageStock', component: ManageStockComponent},
-  { path: 'listNav', component: ListNavComponent},
 
 ]
 

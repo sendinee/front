@@ -6,10 +6,9 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DetailsProductComponent } from './details-product/details-product.component';
-import {FormsModule} from "@angular/forms";
+import { FormsModule } from "@angular/forms";
 import { ManageStockComponent } from './manage-stock/manage-stock.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { ListNavComponent } from './list-nav/list-nav.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { ListNavComponent } from './list-nav/list-nav.component';
     DetailsProductComponent,
     ManageStockComponent,
     ProductListComponent,
-    ListNavComponent
   ],
   imports: [
     BrowserModule,
